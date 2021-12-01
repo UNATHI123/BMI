@@ -1,0 +1,45 @@
+body{
+    background-image: url("images/food.jpeg");
+    background-size: cover;
+}
+button{
+    cursor: pointer;
+}
+#header{
+    text-align: center;
+    font-family: sans-serif;
+}
+.container{
+    margin: auto;
+    margin-top: 12%;
+    width: 600px;
+    padding: 20px;
+    background:initial;
+    font-family: sans-serif;
+    border: 14px solid crimson;
+    
+}
+
+
+#bmi{
+    width: 600px;
+    padding: 10px 0;
+
+}
+#clear{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+#secIn{
+    float: right;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+#comment{
+    color: darkgreen;
+    text-size-adjust: 40PX      ;
+}
+#error{
+    color:darkred;
+}
